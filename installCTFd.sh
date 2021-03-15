@@ -12,7 +12,6 @@ echo "DEscargando repositorio de git ";
 git clone https://github.com/CTFd/CTFd.git
 echo "instalando requerimientos";
 cd  CTFd
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 echo "iniciando ...";
-python3-wsdump serve.py
-echo "";
+python3 serve.py

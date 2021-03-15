@@ -7,8 +7,6 @@ echo "instalando git";
 sudo apt-get install git
 mkdir fbctf
 cd fbctf
-
-if 
 echo "DEscargando repositorio de git ";
 git clone https://github.com/facebook/fbctf
 cd fbctf
